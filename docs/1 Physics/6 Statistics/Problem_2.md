@@ -23,6 +23,7 @@ P(\text{greater than 4}) = \frac{2}{6} = \frac{1}{3}
 
 ## Visualization
 
-Below is a visual representation of the probability distribution:
+Below is a bar graph showing the theoretical probability distribution of a fair die:
 
 ![Probability Plot](probability_plot.png)
+
