@@ -1,3 +1,8 @@
 # Problem 1
-![Newton’s Law Plot](../../newton_plot.png)
+## Visualization
+
+This graph shows the relationship between force and acceleration:
+
+![Newton's Plot](newton_plot.png)
+
 
