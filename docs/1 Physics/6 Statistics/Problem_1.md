@@ -12,12 +12,16 @@ Given a dataset of five measurements: 4, 7, 6, 5, 8 — calculate the **mean**, 
 - Mode: Most frequent value
 
 ## Calculation:
-```math
+
+$$
 \text{Mean} = \frac{4 + 7 + 6 + 5 + 8}{5} = \frac{30}{5} = 6 \\
 \text{Ordered data} = 4, 5, 6, 7, 8 \Rightarrow \text{Median} = 6 \\
 \text{Each number occurs once} \Rightarrow \text{Mode} = \text{None}
+$$
+
 ## Visualization
 
 Below is a visualization of the dataset distribution:
 
 ![Statistics Plot](stats_plot.png)
+
