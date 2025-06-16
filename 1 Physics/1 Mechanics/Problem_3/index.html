@@ -6,14 +6,14 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../../img/favicon.ico" rel="shortcut icon"/>
-<title>Problem 1 - Physics and Mathematics</title>
+<title>Problem 3 – Motion Under Gravity - Physics and Mathematics</title>
 <link href="../../../css/theme.css" rel="stylesheet"/>
 <link href="../../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Problem 1";
-        var mkdocs_page_input_path = "1 Physics/4 Electromagnetism/Problem_1.md";
+        var mkdocs_page_name = "Problem 3 \u2013 Motion Under Gravity";
+        var mkdocs_page_input_path = "1 Physics/1 Mechanics/Problem_3/index.md";
         var mkdocs_page_url = null;
       </script>
 <!--[if lt IE 9]>
@@ -44,17 +44,31 @@
 </ul>
 <p class="caption"><span class="caption-text">1 Physics</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal">1 Mechanics</a>
-<ul>
-<li class="toctree-l2"><a class="reference internal" href="../../1%20Mechanics/">Mechanics Problems</a>
+<li class="toctree-l1 current"><a class="reference internal current">1 Mechanics</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../">Mechanics Problems</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../1%20Mechanics/Problem_1/">Problem 1</a>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_1/">Problem 1</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../1%20Mechanics/Problem_2/">Problem 2 – Friction on Inclined Plane</a>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2 – Friction on Inclined Plane</a>
 </li>
-<li class="toctree-l2"><a class="reference internal">Problem 3</a>
-<ul>
-<li class="toctree-l3"><a class="reference internal" href="../../1%20Mechanics/Problem_3/">Problem 3 – Motion Under Gravity</a>
+<li class="toctree-l2 current"><a class="reference internal current">Problem 3</a>
+<ul class="current">
+<li class="toctree-l3 current"><a class="reference internal current" href="#">Problem 3 – Motion Under Gravity</a>
+<ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="#problem-statement">Problem Statement</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#assumptions">Assumptions</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#formulas">Formulas</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#solution">Solution</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#result">Result</a>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#visualization">Visualization</a>
+</li>
+</ul>
 </li>
 </ul>
 </li>
@@ -76,11 +90,9 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="reference internal current">4 Electromagnetism</a>
-<ul class="current">
-<li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1</a>
-<ul class="current">
-</ul>
+<li class="toctree-l1"><a class="reference internal">4 Electromagnetism</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="../../4%20Electromagnetism/Problem_1/">Problem 1</a>
 </li>
 </ul>
 </li>
@@ -170,8 +182,9 @@
 <ul class="wy-breadcrumbs">
 <li><a aria-label="Docs" class="icon icon-home" href="../../.."></a></li>
 <li class="breadcrumb-item">1 Physics</li>
-<li class="breadcrumb-item">4 Electromagnetism</li>
-<li class="breadcrumb-item active">Problem 1</li>
+<li class="breadcrumb-item">1 Mechanics</li>
+<li class="breadcrumb-item">Problem 3</li>
+<li class="breadcrumb-item active">Problem 3 – Motion Under Gravity</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -179,12 +192,46 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="problem-1">Problem 1</h1>
+<h1 id="problem-3-motion-under-gravity">Problem 3 – Motion Under Gravity</h1>
+<h2 id="problem-statement">Problem Statement</h2>
+<p>A ball is thrown vertically upward with an initial velocity of 20 m/s.<br/>
+Calculate the maximum height it reaches and the total time it takes to return to the ground.</p>
+<hr/>
+<h2 id="assumptions">Assumptions</h2>
+<ul>
+<li>No air resistance</li>
+<li>Gravity is constant: <span class="arithmatex">\( g = 9.8 \, \text{m/s}^2 \)</span></li>
+</ul>
+<hr/>
+<h2 id="formulas">Formulas</h2>
+<ul>
+<li>Maximum height: <span class="arithmatex">\( h = \frac{v_0^2}{2g} \)</span></li>
+<li>Time to reach max height: <span class="arithmatex">\( t = \frac{v_0}{g} \)</span></li>
+<li>Total time: <span class="arithmatex">\( T = 2t \)</span></li>
+</ul>
+<hr/>
+<h2 id="solution">Solution</h2>
+<div class="arithmatex">\[
+h = \frac{20^2}{2 \cdot 9.8} = \frac{400}{19.6} \approx 20.41 \, \text{m}
+\]</div>
+<div class="arithmatex">\[
+t = \frac{20}{9.8} \approx 2.04 \, \text{s}
+\Rightarrow T = 4.08 \, \text{s}
+\]</div>
+<hr/>
+<h2 id="result">Result</h2>
+<ul>
+<li>Maximum height: <strong>20.41 m</strong></li>
+<li>Total time of flight: <strong>4.08 s</strong></li>
+</ul>
+<hr/>
+<h2 id="visualization">Visualization</h2>
+<p><img alt="Gravity Plot" src="gravity_plot.png"/></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
-<a class="btn btn-neutral float-left" href="../../3%20Waves/Problem_1/" title="Problem 1"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-<a class="btn btn-neutral float-right" href="../../5%20Circuits/Problem_1/" title="Problem 1">Next <span class="icon icon-circle-arrow-right"></span></a>
+<a class="btn btn-neutral float-left" href="../Problem_2/" title="Problem 2 – Friction on Inclined Plane"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="../../2%20Gravity/Problem_1/" title="Problem 1">Next <span class="icon icon-circle-arrow-right"></span></a>
 </div>
 <hr/>
 <div role="contentinfo">
@@ -199,8 +246,8 @@
 </div>
 <div aria-label="Versions" class="rst-versions" role="note">
 <span class="rst-current-version" data-toggle="rst-current-version">
-<span><a href="../../3%20Waves/Problem_1/" style="color: #fcfcfc">« Previous</a></span>
-<span><a href="../../5%20Circuits/Problem_1/" style="color: #fcfcfc">Next »</a></span>
+<span><a href="../Problem_2/" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="../../2%20Gravity/Problem_1/" style="color: #fcfcfc">Next »</a></span>
 </span>
 </div>
 <script src="../../../js/jquery-3.6.0.min.js"></script>
