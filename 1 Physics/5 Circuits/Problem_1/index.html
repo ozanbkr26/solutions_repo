@@ -6,13 +6,13 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../../img/favicon.ico" rel="shortcut icon"/>
-<title>Problem 1 - Physics and Mathematics</title>
+<title>Problem 5 – Kirchhoff’s Laws - Physics and Mathematics</title>
 <link href="../../../css/theme.css" rel="stylesheet"/>
 <link href="../../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Problem 1";
+        var mkdocs_page_name = "Problem 5 \u2013 Kirchhoff\u2019s Laws";
         var mkdocs_page_input_path = "1 Physics/5 Circuits/Problem_1.md";
         var mkdocs_page_url = null;
       </script>
@@ -86,8 +86,18 @@
 </li>
 <li class="toctree-l1 current"><a class="reference internal current">5 Circuits</a>
 <ul class="current">
-<li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1</a>
+<li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 5 – Kirchhoff’s Laws</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#problem-statement">Problem Statement</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#given">Given:</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#formulas">Formulas:</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#calculation">Calculation:</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#visualization">Visualization</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -173,7 +183,7 @@
 <li><a aria-label="Docs" class="icon icon-home" href="../../.."></a></li>
 <li class="breadcrumb-item">1 Physics</li>
 <li class="breadcrumb-item">5 Circuits</li>
-<li class="breadcrumb-item active">Problem 1</li>
+<li class="breadcrumb-item active">Problem 5 – Kirchhoff’s Laws</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -181,7 +191,34 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="problem-1">Problem 1</h1>
+<h1 id="problem-5-kirchhoffs-laws">Problem 5 – Kirchhoff’s Laws</h1>
+<h2 id="problem-statement">Problem Statement</h2>
+<p>A simple circuit has two resistors: R₁ = 2 Ω and R₂ = 3 Ω, and a battery of V = 12 V.<br/>
+Using Kirchhoff’s laws, calculate the current through each resistor and the voltage drop.</p>
+<h2 id="given">Given:</h2>
+<ul>
+<li>R₁ = 2 Ω  </li>
+<li>R₂ = 3 Ω  </li>
+<li>V = 12 V  </li>
+</ul>
+<h2 id="formulas">Formulas:</h2>
+<ul>
+<li>Ohm’s Law: V = I × R  </li>
+<li>Kirchhoff’s Voltage Law (KVL): Sum of voltage drops = Battery voltage  </li>
+</ul>
+<h2 id="calculation">Calculation:</h2>
+<pre><code class="language-math">Let I₁ = current through R₁  
+Let I₂ = current through R₂  
+
+Total Resistance, R_total = R₁ + R₂ = 2 + 3 = 5 Ω  
+Total Current, I = V / R_total = 12 / 5 = 2.4 A  
+
+Voltage drop across R₁ = I × R₁ = 2.4 × 2 = 4.8 V  
+Voltage drop across R₂ = I × R₂ = 2.4 × 3 = 7.2 V  
+</code></pre>
+<h2 id="visualization">Visualization</h2>
+<p>Below is a graph showing the voltage drops across each resistor in the series:</p>
+<p><img alt="Voltage Plot" src="voltage_plot.png"/></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
