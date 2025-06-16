@@ -6,13 +6,13 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../../img/favicon.ico" rel="shortcut icon"/>
-<title>Problem 1 - Physics and Mathematics</title>
+<title>Problem 1 – Electromagnetic Induction - Physics and Mathematics</title>
 <link href="../../../css/theme.css" rel="stylesheet"/>
 <link href="../../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Problem 1";
+        var mkdocs_page_name = "Problem 1 \u2013 Electromagnetic Induction";
         var mkdocs_page_input_path = "1 Physics/4 Electromagnetism/Problem_1.md";
         var mkdocs_page_url = null;
       </script>
@@ -80,8 +80,20 @@
 <ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../">Problem 4 – Electromagnetic Induction</a>
 </li>
-<li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1</a>
+<li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 1 – Electromagnetic Induction</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#problem-statement">Problem Statement</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#given">Given:</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#formula">Formula:</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#calculation">Calculation:</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#final-answer">Final Answer:</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#visualization">Visualization</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -173,7 +185,7 @@
 <li><a aria-label="Docs" class="icon icon-home" href="../../.."></a></li>
 <li class="breadcrumb-item">1 Physics</li>
 <li class="breadcrumb-item">4 Electromagnetism</li>
-<li class="breadcrumb-item active">Problem 1</li>
+<li class="breadcrumb-item active">Problem 1 – Electromagnetic Induction</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -181,7 +193,46 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="problem-1">Problem 1</h1>
+<h1 id="problem-1-electromagnetic-induction">Problem 1 – Electromagnetic Induction</h1>
+<h2 id="problem-statement">Problem Statement</h2>
+<p>A 5-turn circular coil of radius 0.1 m is placed in a uniform magnetic field perpendicular to its plane. The magnetic field increases from 0.1 T to 0.5 T in 2 seconds. Calculate the average induced emf in the coil.</p>
+<hr/>
+<h2 id="given">Given:</h2>
+<ul>
+<li>Number of turns: <span class="arithmatex">\( N = 5 \)</span></li>
+<li>Radius: <span class="arithmatex">\( r = 0.1 \, \text{m} \)</span></li>
+<li>Initial magnetic field: <span class="arithmatex">\( B_i = 0.1 \, \text{T} \)</span></li>
+<li>Final magnetic field: <span class="arithmatex">\( B_f = 0.5 \, \text{T} \)</span></li>
+<li>Time: <span class="arithmatex">\( \Delta t = 2 \, \text{s} \)</span></li>
+</ul>
+<hr/>
+<h2 id="formula">Formula:</h2>
+<p>Faraday’s Law of Electromagnetic Induction:</p>
+<div class="arithmatex">\[
+\mathcal{E} = -N \cdot \frac{\Delta \Phi}{\Delta t} \quad \text{where} \quad \Phi = B \cdot A
+\]</div>
+<p>Area of circular coil:</p>
+<div class="arithmatex">\[
+A = \pi r^2
+\]</div>
+<hr/>
+<h2 id="calculation">Calculation:</h2>
+<div class="arithmatex">\[
+A = \pi (0.1)^2 = 0.0314 \, \text{m}^2
+\]</div>
+<div class="arithmatex">\[
+\Delta \Phi = B_f \cdot A - B_i \cdot A = (0.5 - 0.1) \cdot 0.0314 = 0.01256 \, \text{Wb}
+\]</div>
+<div class="arithmatex">\[
+\mathcal{E} = -5 \cdot \frac{0.01256}{2} = -0.0314 \, \text{V}
+\]</div>
+<hr/>
+<h2 id="final-answer">Final Answer:</h2>
+<p>The average induced emf in the coil is <strong>0.0314 V</strong> (magnitude).</p>
+<hr/>
+<h2 id="visualization">Visualization</h2>
+<p>Below is a graph showing the induced emf over time assuming constant speed and uniform field.</p>
+<p><img alt="Induced EMF Plot" src="../electro_plot.png"/></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
