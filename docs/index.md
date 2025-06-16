@@ -45,3 +45,19 @@ Please visit the [Mathematics Physics Lectures](https://dchorazkiewicz.github.io
 * [Mathematics](https://dchorazkiewicz.github.io/Mathematics_Physics_Lectures/Mathematics/Exercises/)
 * [Discret Mathematics](https://dchorazkiewicz.github.io/Mathematics_Physics_Lectures/Discrete_Mathematics/Exercises/)
 
+* # Image Index
+
+This file indexes all images used across the repository.
+
+- `electro_plot.png`: Electromagnetic Induction
+- `voltage_plot.png`: Kirchhoff’s Laws
+- `stats_plot.png`: Descriptive Statistics
+- `probability_plot.png`: Probability Distribution
+- `measurement_plot.png`: Length Measurements
+- `linear_plot.png`: Linear Algebra Vectors
+- `triangle_plot.png`: Analytic Geometry
+- `relations_plot.png`: Set Theory Relations
+- `graph_tree.png`: Graph Theory – Trees
+- `logic_table.png`: Logic Truth Table
+
+
